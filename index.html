@@ -1,62 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Módulo 1 - Primeiros Passos com HTML - Desafio</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1>Módulo 1 - Primeiros Passos com HTML - Desafio</h1>
+    <hr />
+    <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#historia">História dos computadores</a></li>
+            <li><a href="#clients">O que são Clients?</a></li>
+            <li><a href="#servers">O que são Servers?</a></li>
+            <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+            <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#referencias">Links de referências</a></li>
+        </ul>
+        <hr />
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>A história dos computadores começa com <strong>máquinas antigas feitas só pra calcular</strong>, como a calculadora de <strong>Blaise Pascal</strong> no século XVII. No século XIX, <strong>Charles Babbage</strong> criou um projeto de computador mecânico, com ajuda de <strong>Ada Lovelace</strong>, considerada a <strong>primeira programadora</strong>.</p>
+    <p>Na <strong>Segunda Guerra Mundial</strong>, surgiram os primeiros computadores eletrônicos gigantes, como o <strong>ENIAC</strong>. A partir dos anos 50, vieram <strong>transistores</strong>, <strong>chips</strong> e, finalmente, os <strong>computadores pessoais</strong>, como o Apple II.</p>
+    <p>Hoje, temos computadores em quase tudo, até no celular e na TV!</p>
+    <blockquote>“O computador nasceu para resolver problemas que antes não existiam.” — <i>Bill Gates</i></blockquote>
+    <p>Se quiser saber mais, recomendo este vídeo: <a href="https://www.youtube.com/watch?v=dy0wpDfnpzo" target="_blank">A história do computador - TecMundo </a></p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+    <hr />
+    
+    <h2 id="clients">O que são Clients?</h2>
+    <p><strong>Clients</strong> (ou clientes) são os dispositivos ou navegadores que acessam um site. É como se fosse você usando o celular ou o computador para acessar o Google, por exemplo.</p>
+    <p>Para entender melhor leia o artigo em: <a href="https://www-techtarget-com.translate.goog/searchenterprisedesktop/definition/client?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc" target="_blank">TechTarget: O que é client?</a>. </p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+    <hr />
+    
+    <h2 id="servers">O que são Servers?</h2>
+    <p>Os <strong>Servers</strong> (ou servidores) são os computadores que armazenam sites, arquivos e aplicativos. Eles ficam disponíveis na internet para responder as requisições dos clients. </p>
+    <p>Para saber mais acesse o link do víideo: <a href="https://www.youtube.com/watch?v=LLKYNgiyRXM" target="_blank">O que é um servidor e como ele funciona</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+    <p>A estrutura básica de um arquivo <strong>HTML</strong> é como o <u>esqueleto</u> de uma página da web. Mesmo que você vá montar algo simples ou super elaborado, tudo começa com a <u>mesma base</u>.</p>
+    <p>O HTML usa <strong>tags</strong>, que são como comandos entre sinais de menor (<code>&lt;</code>) e maior (<code>&gt;</code>), e a maioria delas <i>abre</i> e <i>fecha</i> <strong>(como <code>&lt;p&gt;</code> e <code>&lt;/p&gt;</code>)</strong>.</p>
+    <p><b>Aqui vai a estrutura mais comum de um arquivo HTML:</b><sup>*</sup></p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><strong><code>&lt;!DOCTYPE html&gt;</code></strong> → Diz ao navegador que o tipo do documento é <strong>HTML5</strong>.</li>
+        <li><strong><code>&lt;html&gt;</code></strong> → É a <em>tag raiz</em>, envolve todo o conteúdo da página.</li>
+        <li><strong><code>&lt;head&gt;</code></strong> → Aqui vão <u>informações da página</u>, como título, links de estilo <strong>(CSS)</strong>, codificação e metadados.</li>
+        <li><strong><code>&lt;body&gt;</code></strong> → É o <u>corpo da página</u>, onde você coloca tudo o que aparece visualmente: textos, imagens, botões, vídeos, etc.</li>
     </ul>
+    <p><blockquote><strong><sup>*</sup>Dica:</strong> Mesmo que seja um projeto simples, <u><strong>comece com essa estrutura básica</strong></u>. Ela ajuda os navegadores e mecanismos de busca a entenderem melhor sua página.</blockquote></p>
+    <p>Saiba clicando no link:<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">
+    HTML Básico - Mozilla Developer Network (MDN)</a></p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+    <hr />
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="referencias">Links de referências</h2>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://dio.me" target="_blank">DIO - Cursos de tecnologia</a></li>
+        <li><a href="https://www.w3.org/" target="_blank">W3C - Padrões Web</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - Guia completo de HTML</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <p><a href="#indice">Voltar ao índice</a></p>
     </ul>
-
 </body>
 </html>
